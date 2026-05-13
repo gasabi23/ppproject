@@ -33,12 +33,13 @@
     <main>
         <section id="about"> 
             <h2>About</h2>
+           <div class="row">
             <div class="section__description">
             <div class="section__description--wrapper">
-                <p>
+                <p class="section__description--para">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate non quam molestiae, sequi corporis ipsam dolore impedit accusamus incidunt distinctio qui minus, ipsa in saepe dicta similique explicabo modi iure!
                 </p>
-                <p>
+                <p class="section__description--para">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptatum quas, illum dicta tempora blanditiis explicabo dolorum impedit, repudiandae rem pariatur, ducimus autem. Architecto molestiae modi quidem similique facere optio placeat enim eaque odit quisquam quam ipsa suscipit nostrum ipsum earum qui totam aliquid, recusandae unde. Quam blanditiis reiciendis rem.
                 </p>
             </div>
@@ -46,20 +47,25 @@
                 <img src="./Assets/about.jpg" alt="">
             </figure>
             </div>
+            </div> 
         </section>
 
         <section id="discord">
             <h2>Dicord</h2>
-            <figure>
+            <div class="row">
+            <div class="section__description">
+            <figure class="about__img--wrapper">
                 <img src="./Assets/discord.png" alt="Discord">
             </figure>
-            <div>
-                <p>
+            <div class="section__description--wrapper">
+                <p class="section__description--para">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum consequuntur, pariatur facere aliquid nihil harum sit repudiandae perferendis ut voluptatem alias facilis, dolorem, quos hic ratione suscipit. Rerum, ab voluptate?
                 </p>
-                <p>
+                <p class="section__description--para">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum consequuntur, pariatur facere aliquid nihil harum sit repudiandae perferendis ut voluptatem alias facilis, dolorem, quos hic ratione suscipit. Rerum, ab voluptate?
                 </p>
+            </div>
+            </div>
             </div>
         </section>
 
@@ -68,20 +74,20 @@
             <h2>Contact</h2>
             <form action="">
             <span>Email</span>
-            <input type="text" name="" id="" placeholder="jane@example.com">
+            <input type="email" name="" id="" placeholder="jane@example.com">
 
             <span>Message</span>
-            <textarea type="text" name="" id="" placeholder="jane@example.com"></textarea>
+            <textarea type="text" name="" id="" placeholder="Cool website, lets get connected!"></textarea>
 
-            <submit>Submit</submit>
+            <button>Contact Us!</button>
 
             </form>
         </section>
     </main>
 
     <footer>
-        <img src="./Assets/FES.svg" alt="">
-        <div>
+        <img class="footer__logo" src="./Assets/FES.svg" alt="">
+        <div class="footer__link">
             <a href="#about">About</a>
             <a href="#discord">Discord</a>
             <a href="#contact">Contact</a>
